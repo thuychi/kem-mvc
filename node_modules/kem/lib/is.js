@@ -1,0 +1,1 @@
+var Check = require('./check'), is = module.exports = new Check();

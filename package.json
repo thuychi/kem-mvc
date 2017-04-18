@@ -1,0 +1,23 @@
+{
+  "name": "kem-mvc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thuychi/kem-mvc.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thuychi/kem-mvc/issues"
+  },
+  "homepage": "https://github.com/thuychi/kem-mvc#readme",
+  "dependencies": {
+    "kem": "^1.0.3"
+  }
+}

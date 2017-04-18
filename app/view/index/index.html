@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Welcome to my Website</title>
+</head>
+<body>
+	<h3>Hello {{name}}</h3>
+	<ul>
+		{{var array = [1,2,3,'four','five'];}}
+		{{ for(var i = 0, n = array.length; i < n; i++){ }}
+		<li>{{ i }}. {{ array[i] }}</li>
+		{{ } }}
+	</ul>
+	<div>{{use('index.form')}}</div>
+	<script src="/asset/js/index.js"></script>
+</body>
+</html>
